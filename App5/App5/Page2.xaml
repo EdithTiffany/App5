@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Page2">
+  
+        <ScrollView>
+            <StackLayout>
+                <Label Text="DATOS PERSONALES" Font="25" TextColor="Green" HorizontalOptions="Center"></Label>
+                <Entry x:Name="nombre1" Placeholder="NOMBRE" TextColor="Gray"></Entry>
+                <Entry x:Name="apellido2" Placeholder="APELLIDO PATERNO" TextColor="Gray"></Entry>
+                <Entry x:Name="direccion3"  Placeholder="DIRECCION" TextColor="Gray"  Keyboard="Numeric"></Entry>
+                <Entry x:Name="telefono4"  Placeholder="TELEFONO" TextColor="Gray" Keyboard="Numeric"></Entry>
+
+                <Label  Text="DATOS ESCOLARES" Font="25" TextColor="Green" HorizontalOptions="Center"></Label>
+                <Entry  x:Name="carrera5" Placeholder="CARRERA" TextColor="Gray"></Entry>
+                <Entry  x:Name="semestre6" Placeholder="SEMESTRE" TextColor="Gray"></Entry>
+                <Entry  x:Name="matricula7" Placeholder="MATRICULA"  Keyboard="Numeric" TextColor="Gray"></Entry>
+
+            <Label Text="DATOS SOCIALES" Font="25" TextColor="Green" HorizontalOptions="Center"></Label>
+            <Entry x:Name="correo8" Placeholder="CORRERO" TextColor="Gray"></Entry>
+            <Entry x:Name="github9" Placeholder="GITHUB" TextColor="Gray" ></Entry>
+
+            <Button x:Name="Guardar" Text="guardar" Clicked="Guardar_Clicked_1" BackgroundColor="Green" ></Button>
+            <Button Text ="IR A LA CALCULADORA" Clicked="Button_Clicked1" BackgroundColor="Orange"></Button>
+            <Button Text="REGRESAR AL INICIO" Clicked="Button_Clicked2" BackgroundColor="Orange"></Button>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

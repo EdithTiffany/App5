@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Page1">
+    <ContentPage.Content>
+
+        <StackLayout>
+            <Label Text="Name : Edith Tiffany Montoya Cordero  
+                School id:13090345" 
+           VerticalOptions="Center" 
+           HorizontalOptions="Center"></Label>
+            <Button Text="IR A FORMULARIO" Clicked="Button_Clicked" BackgroundColor="Orange"></Button>
+            <Button Text="IR A LA CALCULADORA" Clicked="Button_Clicked5" BackgroundColor="Orange"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
